@@ -1,0 +1,19 @@
+{
+  // Most ts-node options can be specified here using their programmatic names.
+  "ts-node": {
+    "esm": true,
+  },
+  "compilerOptions": {
+    "lib": [
+      "es2023"
+    ],
+    "module": "node16",
+    "target": "es2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node16",
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}
